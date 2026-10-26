@@ -1,0 +1,7 @@
+pattern,category,model
+# regex (case-insensitive) on the listing title; first matching row wins over rules.py. Blank model = known item, not priced.
+\bcmp\s?30hx\b,GPU,CMP 30HX
+^cpu with\b,PC,
+airpods?,Audio,
+\b(psp umd|pc game|cd-?rom|dvd-?rom)\b,Game,
+\benclosure\b,Accessory,

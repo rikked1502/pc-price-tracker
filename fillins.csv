@@ -1,0 +1,23 @@
+item,price,note
+# PHP, second-hand, 2026. Used when a build doesn't name the part or the part has too few listings. Edit freely.
+psu,1500,generic 500-650W unit
+case,1200,basic mid-tower with fans
+cooler_stock,0,box cooler comes with the CPU
+cooler_air,800,single-tower air cooler
+cooler_aio,3000,240mm AIO liquid cooler
+board_AM4,3000,A520/B450/B550 board (Ryzen 1000-5000)
+board_AM5,6000,A620/B650 board (Ryzen 7000-9000)
+board_LGA1700,4000,H610/B660/B760 board (Intel 12th-14th gen)
+board_LGA1200,2500,H410/H510/B460/B560 board (Intel 10th-11th gen)
+board_LGA1151,1500,H110-B365 board (Intel 6th-9th gen)
+board_LGA1851,7000,B860 board (Core Ultra 200)
+board,2500,socket unknown
+monitor,3500,24in 75Hz IPS when the monitor isn't priced
+keyboard,500,basic gaming keyboard
+mouse,300,basic gaming mouse
+headset,500,basic gaming headset
+ups,2000,600-650VA UPS
+avr,500,basic AVR
+speaker,400,2.0 desktop speakers
+webcam,400,720p/1080p webcam
+mousepad,100,cloth mousepad

@@ -1,0 +1,8 @@
+# never commit: your Facebook login, your settings, local data, generated files
+profile/
+settings.json
+state.json
+data*.db
+output/
+review.csv
+__pycache__/

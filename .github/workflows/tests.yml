@@ -1,0 +1,19 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: windows-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.13"]
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest -v
+      - run: python price.py
+      - run: python fb.py
